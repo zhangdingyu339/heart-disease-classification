@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "dataset": "fedesoriano/heart-failure-prediction",
+  "dataset_version": 1,
+  "data_sha256": "948420b084d8a3a0ca42b8419fce9aee175879e43f8aedf712377899a67aa49b",
+  "rows": 918,
+  "train_rows": 734,
+  "test_rows": 184,
+  "selected_model": "XGBClassifier",
+  "best_cv_roc_auc": 0.9319309838009024,
+  "selected_parameters": {},
+  "test_partition_previously_inspected": true,
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "xgboost": "3.2.0"
+  }
+}
